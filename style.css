@@ -1,0 +1,114 @@
+body {
+    
+    background: linear-gradient(#c28eae 20%, #8547a1 80%, #b8578f);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9e4e7;
+    color: #141414;
+}
+
+/* ======== Encabezado ======== */
+header {
+    background-color: #ff009d;
+    color: rgb(248, 240, 240);
+    padding: 25px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* ======== Navegación ======== */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffebcd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ======== Secciones ======== */
+main {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 100px;
+    background: rgb(219, 176, 205);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #df0a98;
+    border-bottom: 2px solid #820000;
+    padding-bottom: 5px;
+}
+
+/* ======== Imágenes ======== */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* ======== Tabla ======== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #da06cf;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ======== Formularios ======== */
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #e40c8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a706e7;
+}
+
+/* ======== Footer ======== */
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
